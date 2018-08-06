@@ -68,7 +68,7 @@ define('composer/categoryList', ['categorySelector'], function(categorySelector)
 						changeCategory(postContainer, postData, selectedCategory.cid);
 					}
 
-					$('[tabindex=' + (parseInt($(this).attr('tabindex'), 10) + 1) + ']').trigger('focus');
+					// $('[tabindex=' + (parseInt($(this).attr('tabindex'), 10) + 1) + ']').trigger('focus');
 				});
 
 				if (postData.cid) {
